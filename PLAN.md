@@ -3,7 +3,7 @@
 ## Goal
 
 Validate the Rust bzip2 rewrite against the upstream bzip2 test suite using Nix
-checks, following the same differential-testing pattern established by rust/awk.
+checks, following the same differential-testing pattern established by safety/oxidized/awk.
 
 ## Upstream Test Suite
 
@@ -91,7 +91,7 @@ maintainable as features are added.
 ### File: default.nix
 
 Add a rust-bzip2-dev package (debug build for fast compile) and a checks
-attrset mapping test names to derivations, same pattern as rust/awk/default.nix.
+attrset mapping test names to derivations, same pattern as safety/oxidized/awk/default.nix.
 
 ### File: testsuite.nix
 
